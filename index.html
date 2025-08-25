@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Fundamentals Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Mastering JavaScript Fundamentals</h1>
+
+    <!-- Part 1: Basics -->
+    <section id="basics" class="card">
+      <h2>Part 1: Basics</h2>
+      <label>Enter your name: <input type="text" id="nameInput"></label><br><br>
+      <label>Enter your age: <input type="number" id="ageInput"></label><br><br>
+      <button onclick="showGreeting()">Submit</button>
+      <p id="greeting"></p>
+    </section>
+
+    <!-- Part 2: Functions -->
+    <section id="functions" class="card">
+      <h2>Part 2: Functions</h2>
+      <label>Price: <input type="number" id="priceInput" value="10"></label><br><br>
+      <label>Quantity: <input type="number" id="qtyInput" value="1"></label><br><br>
+      <button onclick="showTotal()">Calculate Total</button>
+      <p id="totalResult"></p>
+    </section>
+
+    <!-- Part 3: Loops -->
+    <section id="loops" class="card">
+      <h2>Part 3: Loops</h2>
+      <button onclick="showCountdown()">Start Countdown</button>
+      <ul id="countdownList"></ul>
+    </section>
+
+    <!-- Part 4: DOM -->
+    <section id="dom" class="card">
+      <h2>Part 4: DOM Manipulation</h2>
+      <button id="toggleBtn">Toggle Highlight</button>
+      <p id="domText">Click the button above to toggle highlight!</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
